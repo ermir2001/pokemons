@@ -43,7 +43,7 @@ body{
     .main-div {
         @include flex;
         flex-direction: column;
-        height:200px;
+        height:260px;
         width: 100%;
     }
     .content {
@@ -58,7 +58,7 @@ body{
     div.main{
         display: flex;
         width:200px;
-        height:200px;
+        height:260px;
     }
     .main-div {
         @include flex;
@@ -146,13 +146,13 @@ form{
     .header {
         @include flex;
         width: 100%;
-        height: 30px;
+        height: 50px;
         background: $color-light-table-header;
         font-size: 19px;
         font-weight: $font-weight-bold;
     }
     .content {
-        height: 170px;
+        height: 210px;
         width: 200px;
         display: flex;
         align-items: center;
@@ -177,13 +177,13 @@ form{
     & .header {
         @include flex;
         width: 100%;
-        height: 30px;
+        height: 50px;
         background: $color-dark-table-header;
         font-size: 19px;
         font-weight: $font-weight-bold;
     }
     & .content {
-        height: 170px;
+        height: 210px;
         width: 200px;
         display: flex;
         align-items: center;
