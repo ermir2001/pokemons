@@ -100,7 +100,7 @@ const App = () => {
             <form onSubmit={(e) => handleSubmit(e, true)}>
                 <label>
                     Find Pokemon:
-                    <input type="text" onChange={handleChange} value={pokemonSearch} name="pokemonName"/>
+                    <input type="text" onChange={handleChange} value={pokemonSearch} name="pokemonName" placeholder="id/name/type"/>
                 </label>
                 <input className="button" type="submit" value="Send"/>
             </form>
